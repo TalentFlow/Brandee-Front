@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+
+.showcase-grid {
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.showcase {
+  width: 100% !important;
+  float: none;
+}
+.showcase:nth-child(2) {
+  width: 100% !important;
+}
+
+.carousel {
+  margin: 0 0 10px;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.shoe-name {
+  width: 75%;
+}
+h3,
+h4,
+p {
+  line-height: 1.1;
+}
+.shoe-name h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #100b0b;
+  margin-bottom: 0;
+  float: left;
+}
+.shoe-name h4 {
+  font-size: 27px;
+  margin-bottom: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+.shoe-name p {
+  color: #aaa;
+  font-family: "Didact Gothic";
+  font-weight: 700;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.8;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  float: left;
+  clear: both;
+}
+
+.rating-stars ul {
+  list-style-type: none;
+}
+.rating-stars ul li {
+  display: inline;
+}
+.rating-stars ul li a {
+  color: #716969;
+  font-size: 15px;
+}
+
+.rating-stars ul li a:hover,
+.rating-stars ul li a.active,
+.rating-stars ul li a:focus {
+  color: #fb4c29 !important;
+  transition: 0.5s all;
+}
+
+.shocase-rt-bot ul {
+  list-style-type: none;
+}
+.shocase-rt-bot ul li {
+  margin-top: 5px;
+}
+li.qty {
+  width: 48%;
+  float: left;
+  margin: 0px 3px;
+}
+
+.form-control.siz-chrt,
+.form-control.qnty-chrt {
+  background: #ffffff;
+  color: #545454;
+  height: 40px;
+  font-family: "Didact Gothic";
+}
+.form-control.siz-chrt:focus,
+.form-control.qnty-chrt:focus {
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #aaa;
+}
+option {
+  background-color: #fff;
+  color: #000;
+  border: none !important;
+  outline: none;
+}
+.shocase-rt-bot h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One";
+  font-weight: 100;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+li.qty h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One";
+  font-weight: 100;
+  margin-bottom: 5px;
+  color: #aaa;
+}
+li.ad-2-crt {
+  margin-top: 15px !important;
+}
+li.ad-2-crt a {
+  width: 100%;
+  background: #100b0b;
+  color: #fff;
+  font-family: "Pathway Gothic One";
+  font-size: 18px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+li.ad-2-crt a:hover {
+  background: #fa5400;
+  color: #fff;
+  border: none;
+  transition: 0.5s all;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+
+.showcase-last {
+  float: left;
+}
+.showcase-last h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 27px;
+  font-family: "Pathway Gothic One";
+  color: #100b0b;
+  margin: 15px 0px 15px 37px;
+  text-align: left;
+}
+
+.showcase-last ul {
+  list-style-type: none;
+  float: left;
+}
+.showcase-last ul li {
+  line-height: 1.8em;
+  font-size: 14px;
+  color: #3c3c3c;
+  text-align: left;
+  font-family: "Didact Gothic";
+}
+
+.product__details__price {
+  font-size: 30px;
+  font-weight: 600;
+  color: #100b0b;
+  margin-bottom: 30px;
+  float: left;
+  clear: both;
+}
+
+.product__details__price span {
+  font-size: 18px;
+  color: #b1b0b0;
+  text-decoration: line-through;
+  margin-left: 10px;
+  display: inline-block;
+}
+.quantity {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.quantity > span {
+  font-size: 14px;
+  color: #111111;
+  font-weight: 600;
+  float: left;
+  margin-top: 14px;
+  margin-right: 15px;
+}
+
+.pro-qty {
+  height: 38px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  /* border-radius: 50px; */
+  padding: 0 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.pro-qty .qtybtn {
+  font-size: 20px;
+  color: #666666;
+  cursor: pointer;
+  float: left;
+  width: 12px;
+  line-height: 46px;
+
+  vertical-align: middle;
+}
+
+.pro-qty input {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 500;
+  border: none;
+  float: left;
+  width: 84px;
+  text-align: center;
+  height: 48px;
+}
+.product__details__button {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 320px) {
+  .shoe-name h3,
+  .shoe-name h4 {
+    font-size: 30px;
+  }
+
+  .shoe-name p {
+    font-size: 13px;
+  }
+  .shoe-name {
+    width: 100%;
+  }
+  .quantity {
+    width: 100%;
+  }
+  .showcase-last ul li {
+    font-size: 12.5px;
+  }
+}

@@ -1,0 +1,367 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+.row-main {
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.landing-item {
+  display: block;
+  position: relative;
+}
+.image-contain {
+  text-align: center;
+  position: relative;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.lazyloaded img {
+  /* min-height: 280px; */
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+.img-content.abs-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* top: unset; */
+  bottom: 10%;
+  /* top: 70%; */
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  /* padding: 25px 25px 30px; */
+}
+/* .img-content-title.abs-center1 {
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 10%;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  padding: 25px 25px 30px;
+  margin-bottom: 10px;
+} */
+.img-content-title.abs-center1 span {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 29px;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.lazyloaded .abs-center .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  /* padding: 12px 24px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.lazyloaded .abs-center .btn {
+  position: absolute;
+  font-family: "Pathway Gothic One", sans-serif;
+  background-color: white;
+  color: black;
+  /* padding: 0.3em 1.5em; */
+  border-radius: 0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+  text-transform: uppercase;
+  max-width: 230px;
+  height: 45px;
+  width: 210px;
+  top: 50%;
+  left: 50%;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lazyloaded .abs-center .btn:hover {
+  color: #fff;
+  transition: all 0.35s;
+  background-color: #000;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 61.8%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 60.8%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 999px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 59.5%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 58.5%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 56.6%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 54.8%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 599px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 53%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 549px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 499px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 50.1%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 449px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 48.5%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 419px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 48.9%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+  .img-content-title.abs-center1 span {
+    font-size: 25px;
+  }
+  .img-content.abs-center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    /* top: 70%; */
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    padding: 25px 25px 30px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 379px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 47.9%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+  .img-content-title.abs-center1 span {
+    font-size: 22px;
+  }
+  .img-content.abs-center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    /* top: 70%; */
+    position: absolute;
+    top: 52%;
+    text-align: center;
+    padding: 25px 25px 30px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 349px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 46.1%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+  .img-content-title.abs-center1 span {
+    font-size: 20px;
+  }
+  .img-content.abs-center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 8%;
+    /* top: 70%; */
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding: 25px 25px 30px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 319px) {
+  .img-content-title.abs-center1 {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 10%;
+    position: absolute;
+    top: 45.1%;
+    text-align: center;
+    padding: 25px 25px 30px;
+    margin-bottom: 10px;
+  }
+  .img-content-title.abs-center1 span {
+    font-size: 19px;
+  }
+  .img-content.abs-center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* top: unset; */
+    bottom: 7%;
+    /* top: 70%; */
+    position: absolute;
+    top: 48.5%;
+    text-align: center;
+    padding: 25px 25px 30px;
+  }
+}

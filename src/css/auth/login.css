@@ -1,0 +1,325 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.login-page-header {
+  margin: 0px -15px 0px;
+  border: 0;
+  border-bottom: 3px solid #000;
+}
+.login-page-header > h1 {
+  padding: 20px 0px 0px 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main {
+  margin-top: 25px;
+  margin-bottom: 5rem;
+}
+.login-container {
+  border: 1px solid #d6d6d6;
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  max-width: 100%;
+}
+.login-header {
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  max-width: 100%;
+}
+.title {
+  margin: 0;
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 24px;
+  vertical-align: baseline;
+  letter-spacing: 2px;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.title > h2 {
+  color: black;
+  font-family: "Pathway Gothic One", sans-serif !important;
+  font-size: 18px;
+  font-weight: 700;
+
+  font-style: normal;
+  font-variant: normal;
+
+  text-transform: uppercase;
+  padding: 14px 0 6px 0;
+  text-decoration: none solid rgb(96, 96, 96);
+  color: #606060;
+  text-align: center;
+}
+.form-error {
+  line-height: 24px;
+}
+.error-detail-main {
+  display: block;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: "Pathway Gothic One", sans-serif !important;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.form-error > ul {
+  font-weight: 500;
+  margin: 0 0 0px 15px;
+  padding: 10px;
+  list-style: none;
+}
+.form-error > ul > li {
+  margin-bottom: 6px;
+  font-family: "Pathway Gothic One", sans-serif !important;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-align: left;
+}
+.form-error > ul > li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #c6c6c6;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: none;
+  margin: 8.5px 11px 10px 0;
+  float: left;
+}
+.form-input-label {
+  color: #454545;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.form-group {
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 0;
+}
+.form-group:last-child {
+  padding: 20px 20px 20px 20px;
+}
+label {
+  line-height: 20px;
+  display: block;
+  cursor: default;
+  float: left;
+}
+label > span {
+  font-family: "Pathway Gothic One", sans-serif !important;
+}
+label > em {
+  color: #f1152f;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 3px;
+}
+
+.form-group > input {
+  height: 40px;
+  padding: 7px 12px 5px;
+  border: 1px solid #cbcbcb;
+  color: #3c3c3c;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  text-align: start;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.last {
+  margin: 25px 0;
+  float: left;
+  padding: 0 18px;
+  text-align: left;
+}
+.last > a {
+  color: #454545;
+  font-family: BentonSans, Arial, sans-serif;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin-right: 3px;
+  text-align: left;
+}
+.last > a:last-child {
+  margin-left: 3px;
+}
+.last > a:hover {
+  transition: all 0.7s;
+  color: #999999;
+  border-bottom: 1px solid #999999;
+}
+.last > span {
+  color: #000;
+  font-family: BentonSans, Arial, sans-serif;
+  font-size: 12px;
+  padding: 0 1px;
+}
+
+.action-btn {
+  /* padding-top: 6px; */
+  padding: 18px;
+}
+.btn-login {
+  font-family: BentonSans, Arial, sans-serif;
+  font-size: 13px;
+  border-radius: 0;
+  font-weight: 700;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 15px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.btn-login:hover {
+  transition: all 0.4s;
+  background: #66cc99;
+  color: white;
+}
+.btn-login[disabled] {
+  transition: all 0.4s;
+  background-color: #5a5a5a;
+  color: white;
+  cursor: default;
+}
+.btn-login[disabled]:hover {
+  transition: all 0.4s;
+  background-color: #5a5a5a;
+  color: white;
+  cursor: default;
+}
+
+.new-container {
+  border: 1px solid #d6d6d6;
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  max-width: 100%;
+  margin-left: 0.8rem;
+}
+.new-header {
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  max-width: 100%;
+}
+
+.new-form-msg {
+  line-height: 24px;
+}
+.msg-detail-main {
+  color: #606060;
+  font-family: "Pathway Gothic One", sans-serif;
+  line-height: 20px;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  margin: 0px 0px 30px;
+  padding: 20px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  display: block;
+}
+
+.recovery {
+  margin: 25px 0;
+  /* float: left; */
+  padding: 0 18px;
+  /* display: inline; */
+}
+.btn-recovery {
+  font-family: BentonSans, Arial, sans-serif;
+  font-size: 13px;
+  border-radius: 0;
+  font-weight: 700;
+  width: 50%;
+  background: white;
+  color: black;
+  border: 1px solid #000;
+  padding: 15px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  /* display: inline-block; */
+}
+.btn-recovery:hover {
+  transition: all 0.4s;
+  background: #000;
+  color: white;
+}
+.right-div > span {
+  color: #000;
+  font-family: BentonSans, Arial, sans-serif;
+  font-size: 20px;
+  padding: 0 1px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.right-div > a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.right-div {
+  /* float: right; */
+  /* margin: 0 auto; */
+  padding-right: 3rem;
+  display: inline;
+  line-height: 50px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .login-container {
+    border: 0;
+  }
+  .title {
+    border: 0;
+  }
+  .new-container {
+    border: 0;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .right-div {
+    padding-right: 1rem;
+    display: inline;
+    line-height: 50px;
+  }
+}

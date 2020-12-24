@@ -1,0 +1,5 @@
+export const GET_ADDRESS = "GET_ADDRESS";
+export const ACC_LOADING = "ACC_LOADING";
+export const DELETE_ADDRESS = "DELETE_ADDRESS";
+export const UPDATE_ADDRESS = "UPDATE_ADDRESS";
+export const ADD_ADDRESS = "ADD_ADDRESS";

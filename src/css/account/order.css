@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.account-order-header > h2 {
+  font-family: "Oswald", sans-serif;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.no-order-text > h3 {
+  font-family: "Oswald", sans-serif;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 13px;
+}

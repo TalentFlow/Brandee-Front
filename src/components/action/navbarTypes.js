@@ -1,0 +1,2 @@
+export const GET_ICON_COUNT = "GET_ICON_COUNT";
+export const NAVBAR_LOADING = "NAVBAR_LOADING";
