@@ -4,6 +4,8 @@
 npm i
 npm start
 ```
+## Stripe Info:
+  # Put your Stripe publishable key in checkout.jsx to get the token.
 
 ## For deploying
 
